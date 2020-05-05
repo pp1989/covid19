@@ -1,0 +1,69 @@
+body{
+  margin:20px;
+  background-color: black;
+  margin: 0px 0px 54px;
+}
+
+.navbar{
+  background-color:#27415866;;
+  border-color:#27415866;;
+  overflow: hidden;
+block-size: 1.9cm;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;  
+border-top-right-radius: 10px;        
+border-bottom-right-radius: 10px;
+}
+.navbar .nav-pills >li >a {
+  color: black;
+}
+.navbar .nav-pills > li > a:hover {
+  background-color: gold;
+  text-decoration: none;
+margin-left:-10px;
+padding: 10px 10px 10px 10px;
+/* width:150px; */
+  /* background-repeat: repeat; */
+  /* font-synthesis: style; */
+  color: black;
+}
+.navbar .nav-pills .active {
+  /* background-color: gold; */
+  border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;  
+border-top-right-radius: 10px;        
+border-bottom-right-radius: 10px;
+  color:Black ;
+  font-weight:bold;
+}
+
+.nav{
+  text-decoration: none;
+  list-style: none;
+  block-size: 1.3cm;
+  text-align: left;
+  padding: 13px 10px 10px 200px;
+ 
+ 
+}
+li{
+  /* color:goldenrod; */
+  display: inline-block;
+  position: relative;
+    padding-left: 24px;
+    font-size: 20px;
+    
+    
+}
+.active{
+  text-decoration: none;
+  }
+
+  /* Navigation site header */
+  .site-header{
+    background: url("../../image/snow.png") no-repeat scroll top;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin: 0px 0px 54px;
+  }
