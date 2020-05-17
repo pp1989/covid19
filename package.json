@@ -2,7 +2,7 @@
   "name": "coronaapp",
   "version": "0.1.0",
   "private": true,
-  "englines":{
+  "engines":{
     "node":"11.10.1",
     "npm":"6.7.0"
   },
