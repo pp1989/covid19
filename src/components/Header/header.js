@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import { Navbar, Nav } from "react-bootstrap";
-import { Link, BrowserRouter as Router, Switch, Redirect, Route, NavLink } from 'react-router-dom';
+// import { Navbar, Nav } from "react-bootstrap";
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 import './header.css';
-import Logo from '../../image/logo9.png';
+// import Logo from '../../image/logo9.png';
 import Lockdown from '../Lockdown/lockdown';
 import Home from '../Home/home';
 import GlobalPatients from '../GlobalP/globalPatients';

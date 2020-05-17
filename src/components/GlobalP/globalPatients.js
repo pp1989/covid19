@@ -1,12 +1,12 @@
 import './globalPatients.css';
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import axios from 'axios'; 
-import { createBrotliCompress } from 'zlib';
-import { captureRejectionSymbol } from 'events';
+// import PropTypes from 'prop-types'
+// import axios from 'axios'; 
+// import { createBrotliCompress } from 'zlib';
+// import { captureRejectionSymbol } from 'events';
 import TD from '../dataTable.json';
-import { CloseButton } from 'react-bootstrap';
-import { goldenrod, pink } from 'color-name';
+// import { CloseButton } from 'react-bootstrap';
+// import { goldenrod, pink } from 'color-name';
 const columnHeader = ["EntryId", "StateCode", "DetectedState", "DetectedDistrict", "DateAnnounced"];
 
 export default class globalPatients extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import { createBrotliCompress } from 'zlib';
-import { captureRejectionSymbol } from 'events';
+// import { createBrotliCompress } from 'zlib';
+// import { captureRejectionSymbol } from 'events';
 import Table from "../Table";
 import './covidUpdates.css';
 
@@ -15,7 +15,7 @@ export default class covidUpdates extends Component {
   }
 
   componentDidMount = () => {
-    let res = [];
+    // let res = [];
     
     axios.get(`https://api.covid19india.org/raw_data4.json`)
     // axios.get(`https://api.covid19india.org/raw_data3.json`)
