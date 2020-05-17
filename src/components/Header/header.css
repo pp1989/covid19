@@ -5,14 +5,15 @@ body{
 }
 
 .navbar{
-  background-color:#27415866;;
+  background-color:#ee692b;
+  padding: 10px 10px;
   border-color:#27415866;;
   overflow: hidden;
-block-size: 1.9cm;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;  
-border-top-right-radius: 10px;        
-border-bottom-right-radius: 10px;
+  block-size: 1.9cm;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;  
+  border-top-right-radius: 10px;        
+  border-bottom-right-radius: 10px;
 }
 .navbar .nav-pills >li >a {
   color: black;
@@ -29,8 +30,8 @@ padding: 10px 10px 10px 10px;
 }
 .navbar .nav-pills .active {
   /* background-color: gold; */
-  border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;  
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;  
 border-top-right-radius: 10px;        
 border-bottom-right-radius: 10px;
   color:Black ;
@@ -59,11 +60,22 @@ li{
   text-decoration: none;
   }
 
+  /* .headerUp{ */
+    /* background: url("../../image/corona.jpeg") no-repeat scroll top; */
+    /* background-size: cover; */
+     /* background-position: top 90%; */
+     /* background-position: center; */
+    /* height: 200px; */
+    /*margin: 110px 0px 54px; */
+  /* } */
+
   /* Navigation site header */
   .site-header{
-    background: url("../../image/snow.png") no-repeat scroll top;
+    background: url("../../image/corona.jpeg") no-repeat scroll top;
     background-size: cover;
+    /* background-position: top 40%;*/
     background-position: center;
-    height: 300px;
-    margin: 0px 0px 54px;
+    height: 400px; 
+    margin: 13px 0px 54px; 
   }
+ 

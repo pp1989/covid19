@@ -1,0 +1,28 @@
+.table {
+  margin: 102px 0 3px;
+  padding: 1cm 3cm 3cm 3cm;
+  text-align: center;
+    border-spacing: 2.5cm;
+  }
+  td, th {
+    
+    width: 4rem;
+    height: 2rem;
+    border: 1px solid green;
+    text-align: center;
+  }
+  th {
+    background: rgb(8, 82, 30);
+    border-color: rgb(223, 140, 17);
+  }
+  body {
+    padding: 1rem;
+  } 
+  
+  /* .covideForm{ 
+   background-image: url("../../image/success.jpg") no-repeat scroll top;
+   height:600px; 
+   background-size: cover;
+    margin: 13px 0px 54px; 
+ background-color: #cccccc;  
+ } */
