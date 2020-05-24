@@ -4,7 +4,7 @@ import React from 'react';
     const Table = ({ covidData }) => {
 
     return (
-      <table className="table" style={{ padding: `3cm 3cm 3cm 3cm`, margin:'1px'}} >
+      <table className="table table-dark" style={{ padding: `3cm 3cm 3cm 3cm`, margin:'1px'}} >
         <thead>
           <tr style={{ color: "pink" , border: `10px solid golden` }}>
 

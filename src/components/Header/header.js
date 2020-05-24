@@ -35,6 +35,9 @@ export default class header extends Component {
                 
                 <div className="headerUp">
                     <nav className="navbar navbar-default  navbar-fixed-top navbar-inverse navbar-light navbar-static-top">
+                        <div className="toggle">
+                        <i class="fas fa-bars" area-hidden="true"></i>
+                        </div>
                         <ul className="nav nav-pills ">
                             <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
                             <li><NavLink to="/lockdown" className="active">Lockdown</NavLink></li>

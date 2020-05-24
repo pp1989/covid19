@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+@media(max-width: 100px) {
+  body {
+
+    background-color: red;
+  }
+
+
+} */
